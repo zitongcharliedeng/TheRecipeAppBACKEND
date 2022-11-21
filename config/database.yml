@@ -26,7 +26,9 @@ production:
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: mydatabase
-  username: myusername
-  password: mypassword
+  database: zitongcharliedeng/trial
+  username: zitongcharliedeng
+  password: v2_3vpe8_9KGvtMCJ8yFk6Tu59zzjk5A
+  host: db.bit.io
+  port: 5432
 # <%= ENV['DATABASE_PASS'] %>
